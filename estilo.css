@@ -69,3 +69,10 @@ section .main-text{
 	margin:0;
 	padding: 0;
 }
+#websites{
+	text-align:center;
+}
+#wconstrucao,#enedmg2015{
+	margin: 30px;
+	width: auto;
+}
