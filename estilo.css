@@ -76,3 +76,7 @@ section .main-text{
 	margin: 30px;
 	width: auto;
 }
+img{
+	max-width: 100%;
+	max-height:50vh;
+}

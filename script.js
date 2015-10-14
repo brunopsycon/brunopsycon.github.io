@@ -1,4 +1,4 @@
-
+/*
 			$(function(){
 				$('section').hide();
 				$("#main-games").mouseover(function() {
@@ -57,3 +57,4 @@
 				})
 			});
 		
+			*/
