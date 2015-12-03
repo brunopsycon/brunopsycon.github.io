@@ -1,4 +1,3 @@
-/*
 			$(function(){
 				$('section').hide();
 				$("#main-games").mouseover(function() {
@@ -13,11 +12,11 @@
 					$('section').hide();
 					$("#programming").show();
 				})
-				$("#main-foundations").mouseover(function() {
+				$("#main-initiatives").mouseover(function() {
 					$('#main li').css("text-decoration", "none");
-					$("#main-foundations").css("text-decoration", "underline");
+					$("#main-initiatives").css("text-decoration", "underline");
 					$('section').hide();
-					$("#foundations").show();
+					$("#initiatives").show();
 				})
 				$("#main-websites").mouseover(function() {
 					$('#main li').css("text-decoration", "none");
@@ -56,5 +55,3 @@
 					$("#musics").show();
 				})
 			});
-		
-			*/

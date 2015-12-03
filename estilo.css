@@ -11,7 +11,6 @@ body{
 }
 #main{
 	background-color:#b24b3b;
-	padding-right:50px;
 	overflow:auto;
 	color:#eec6c0;
 }
@@ -20,31 +19,45 @@ body{
 	height:300px;
 	margin-right:50px;
 }
+ul{
+	padding-left:0;
+	text-align:center;
+}
 #main ul{
 	text-align:center;
 }
-#main li{
+.tile{
 	display:inline-block;
 	margin-left:10px;
 	margin-right:10px;
+	vertical-align:top;
 }
 section{
 	color:#eec6c0;
 	margin-top:50px;
 }
-section div{
+.orange{
 	background-color:#b24b3b;
 	padding:10px;
+	margin:20px;
 }
-#games li{
-	background-color:#b24b3b;
-	display:inline-block;
+.orange img{
+	max-width:300px;
+}
+#games .tile{
 	width:250px;
 	margin:10px;
 	padding:10px;
 	height:500px;
-	vertical-align:top;
 }
+#initiatives .tile{
+	width: 500px;
+	height:300px;
+}
+#websites .tile{
+	width:500px;
+	height:300px;
+} 
 .thumbnail{
 	width:100%;
 }
@@ -75,8 +88,4 @@ section .main-text{
 #wconstrucao,#enedmg2015{
 	margin: 30px;
 	width: auto;
-}
-img{
-	max-width: 100%;
-	max-height:50vh;
 }
