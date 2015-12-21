@@ -25,6 +25,7 @@ ul{
 }
 #main ul{
 	text-align:center;
+	cursor: default;
 }
 .tile{
 	display:inline-block;
