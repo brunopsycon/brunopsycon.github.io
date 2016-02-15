@@ -32,6 +32,7 @@ ul{
 	margin-left:10px;
 	margin-right:10px;
 	vertical-align:top;
+	text-align: center;
 }
 section{
 	color:#eec6c0;
@@ -51,6 +52,10 @@ section{
 	padding:10px;
 	height:500px;
 }
+#programming .tile{
+	width: 500px;
+	height:400px;
+}
 #initiatives .tile{
 	width: 500px;
 	height:300px;
@@ -59,6 +64,10 @@ section{
 	width:500px;
 	height:300px;
 } 
+#tutorials .tile{
+	width: 500px;
+	height:500px;
+}
 .thumbnail{
 	width:100%;
 }
