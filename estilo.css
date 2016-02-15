@@ -19,13 +19,9 @@ body{
 	height:300px;
 	margin-right:50px;
 }
-ul{
-	padding-left:0;
-	text-align:center;
-}
 #main ul{
 	text-align:center;
-	cursor: default;
+	cursor: pointer;
 }
 .tile{
 	display:inline-block;
@@ -36,7 +32,6 @@ ul{
 }
 section{
 	color:#eec6c0;
-	margin-top:50px;
 }
 .orange{
 	background-color:#b24b3b;
@@ -65,6 +60,10 @@ section{
 	height:300px;
 } 
 #tutorials .tile{
+	width: 500px;
+	height:500px;
+}
+#prizes .tile{
 	width: 500px;
 	height:500px;
 }
