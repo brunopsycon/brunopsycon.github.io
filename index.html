@@ -2,301 +2,308 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bruno V.Costa</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<link href='estilo.css' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src='script.js'></script>
 </head>
 <body>
-	<div id='main'>
-		<img src='laranja.png' />
-		<h1>HI THERE!</h1>
-		<p>I'm Bruno Vieira Costa. Student of Military Institute of Engineering, I'm a passionate programmer and a hobbyst artist. Here you can find some of my creations.</p>
-		<p>Contact: brunovcosta@outlook.com</p>
-		<p>Twitter: <a href='https://twitter.com/bruno_vcosta'>@bruno_vcosta</a></p>
-		<ul>
-			<li class="tile" id='main-games'>GAMES</li>
-			<li class="tile" id='main-programming'>PROGRAMMING</li>
-			<li class="tile" id='main-initiatives'>FOUNDATIONS</li>
-			<li class="tile" id='main-websites'>WEBSITES</li>
-			<!--<li class="tile" id='main-comics'>COMICS</li>-->
-			<li class="tile" id='main-paintings'>PAINTINGS</li>
-			<!--<li class="tile" id='main-tutorials'>TUTORIALS</li>-->
-			<li class="tile" id='main-prizes'>PRIZES</li>
-			<li class="tile" id='main-musics'>MUSICS</li>
-		</ul>
+	<div class="container">
+		<div id='main'>
+			<!--		<img src='laranja.png' />  -->
+			<h1>HI THERE!</h1>
+			<p>I'm Bruno Vieira Costa. Student of Military Institute of Engineering, I'm a passionate programmer and a hobbyst artist. Here you can find some of my creations.</p>
+			<p>Contact: brunovcosta@outlook.com</p>
+			<p>Twitter: <a href='https://twitter.com/bruno_vcosta'>@bruno_vcosta</a></p>
+			<div class="center-div">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default main-item" data-link='#games' id='main-games'>GAMES                  </button>
+					<button type="button" class="btn btn-default main-item" data-link='#programming' id='main-programming'>PROGRAMMING</button>
+					<button type="button" class="btn btn-default main-item" data-link='#initiatives' id='main-initiatives'>FOUNDATIONS</button>
+					<button type="button" class="btn btn-default main-item" data-link='#websites' id='main-websites'>WEBSITES         </button>
+					<button type="button" class="btn btn-default main-item" data-link='#paintings' id='main-paintings'>PAINTINGS      </button>
+					<button type="button" class="btn btn-default main-item" data-link='#prizes' id='main-prizes'>PRIZES               </button>
+					<button type="button" class="btn btn-default main-item" data-link='#musics' id='main-musics'>MUSICS               </button>
+					<button type="button" class="btn btn-default main-item" data-link='comics' id='main-comics'>COMICS                </button>
+					<button type="button" class="btn btn-default main-item" data-link='tutorials' id='main-tutorials'>TUTORIALS       </button>
+				</div>
+			</div>
+		</div>
+		<section id='games'>
+			<div class='center-div orange'>
+				<p>Games! they are my passion! I'm aways making games...at least when it's possible.</p>
+			</div>
+			<br>
+			<h1>GAMES</h1>
+			<div class="row">
+				<div class="orange col-md-3">
+					<h2>Burglar Olympics</h2>
+					<img class='thumbnail' src='jogos/burglar.jpg'>
+					<p>This game was made for the #BotafogoGameJam. Check it out the newest Olympic game to be presented at Rio 2016 Summer Olympics with the following categories: Athletics, Cycling, Both, With your money and Just don't get caught by those cops...  </p>
+					<p><a href='http://gamejolt.com/games/burglar-olympics/133078'>Game Jolt Page</a></p>
+					<p><b>time taken:</b> 48 hours</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Moça Nova</h2>
+					<img class='thumbnail' src='jogos/mocanova.png'>
+					<p>A tribe from Amazon carries out a ritual for female teenagers in their first period. In this time, they are able to see demons in men wearing a mystic mask.</p>
+					<p><a href='http://globalgamejam.org/2016/games/mo%C3%A7a-nova-ritual'>Download android apk</a></p>
+					<p><b>time taken:</b> 48 hours</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Kaplansky</h2>
+					<iframe class="thumbnail" src="https://www.youtube.com/embed/aV_dipXIF78" frameborder="0" allowfullscreen></iframe>
+					<p>A project in continuous development to be a big extension of Bad Piggies ideas.</p>
+					<p><b>time taken:</b> On Going</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Lumber Jackeline</h2>
+					<iframe  class='thumbnail' src='https://www.youtube.com/embed/Ha4gJtE-R7k'></iframe>
+					<p>Jackeline wants to be a lumberjack, but she is cursed and, without a beard, she can't become one. Now she must overcome a few challenges to achieve her truest dream.</p>
+					<p>This game was made in 2015 Global Game Jam, with me and Sinextra guys.</p>
+					<p><b>time taken:</b> 2 days</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Connected World Airlines</h2>
+					<img class='thumbnail' src='jogos/ld30.jpg'>
+					<p>Connected world airlines is a game that I made with 4 friends to ludum dare 30
+					The game can be played online.</p>
+					<p><a href='http://imeplusplus.github.io/LD30/postCompo.html'>Play online!</a></p>
+					<p><b>time taken:</b> 3 days</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Calabouço do Android</h2>
+					<iframe  class='thumbnail' src='https://www.youtube.com/embed/k-ZkpgL_WVU'></iframe>
+					<p>I participated in the production of this game with sinextra game studio, this advergame, developed for <i>calabouço do android</i>,it's a infinity runner, canabalt/jetpack joyride like. The game is playable online both in calabouço's website and newgrounds.</p>
+					<p><a href='http://www.newgrounds.com/portal/view/624726'>Play online!</a></p>
+					<p><b>time taken:</b> 1 month</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>I Want My Parrot</h2>
+					<iframe  class='thumbnail' src='https://www.youtube.com/embed/Q8iylXeW114'></iframe>
+					<p>I Want My Parrot was my first commercial participation in game production, I participated in the development with Sinextra Game Studio. This is about the journey of Captain Pierre whose parrot was stolen, suposely by Empire.</p>
+					<p>Game canceled.</p>
+					<p><b>time taken:</b> 1 life!</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Arena Robô 2 - Segunda Carga</h2>
+					<img class='thumbnail' src='jogos/ar2.png'>
+					<p>This game, made to e-games 2011 contest, take me into 5th national position as finalist.</p>
+					<a href='https://dl.dropboxusercontent.com/u/3990369/arena2.rar'>Download - 13,6 MB</a>
+					<p><b>time taken:</b> 2 months</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Arena Robô</h2>
+					<img class='thumbnail' src='jogos/ar.jpeg'>
+					<p>In Arena Robô, your mission is to blow it up and eliminate as many robots as possible, this game was made for a forum contest, is actually one of my favorites.</p>
+					<a href='https://dl.dropboxusercontent.com/u/3990369/arena%20rob%C3%B4.exe'>Download - 4,9 MB</a>
+					<p><b>time taken:</b> 3 days</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Relâmpago 14</h2>
+					<img class='thumbnail' src='jogos/r14.jpg'>
+					<p>This game was another simple test drive to create an open-world metroidvania game.</p>
+					<a href='https://dl.dropboxusercontent.com/u/3990369/Relampago%2014%20-%20O%20Resgate.rar'>Download - 7,2 MB</a>
+					<p><b>time taken:</b> 5 days</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Super Desafio</h2>
+					<img class='thumbnail' src='jogos/sd.jpg'>
+					<p>Super Desafio is a simple platformer game with extremely high difficulty, hence the name, which can take you to exhaustion. A lot of skill are required to achieve the end.</p>
+					<a href='https://dl.dropboxusercontent.com/u/3990369/super%20desafio.exe'>Download - 20,8 MB</a>
+					<p><b>time taken:</b> 1 week</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>X-58</h2>
+					<img class='thumbnail' src='jogos/x58.jpg'>
+					<p>X-58 was my first top-down shooter test, in which the player controls Cezar, a special agent sent to hold a wave of zombies (what innovative!). Had help of Thiago R. Siqueira for sound design.</p>
+					<a href='https://dl.dropboxusercontent.com/u/3990369/x-58.exe'>Download - 9,8 MB</a>
+					<p><b>time taken:</b> 2 weeks</p>
+				</div>
+			</div>
+		</section>
+		<section id='programming'>
+			<div class='center-div orange'>
+				<p>General programming stuff. Here are some experimentations and researches done in college.</p>
+			</div>
+			<h1>PROGRAMMING</h1>
+			<div class="orange col-md-3">
+				<h2>Computer Vision</h2>
+				<p>My curret research work in college is about <a href='http://en.wikipedia.org/wiki/Computer_vision'>computer vision</a>, where I'm trying to extract information from mathematical handwriting</p>
+				<img src='cv.png'></img>
+				<p><a href="https://github.com/brunovcosta/tema-dirigido">Undergraduating project using Kinect & Lego EV3.</a></p>
+				<p><a href="https://github.com/brunovcosta/pibiti">Undergraduating research using OpenCV to compute handwrited digits.</a></p>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Robotics & Automation</h2>
+				<img src="robotics.jpg"/>
+				<p>As I play with imagery detection, I started to play with robots.</p>
+				<p>I also studied drones auto-piloting with crazyflie</p>
+				<p>My experiences with hardware envolved arduino and ev3.</p>
+				<p><a href="https://github.com/brunovcosta/cerveja-conex">Home automation tests using Ruby on Rails & Arduino.</a></p>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Agent Based Modeling</h2>
+				<p>In 2012 I worked in economics based computational modeling. I used Java with <a href='http://repast.sourceforge.net/'>Repast Suite</a>.</p>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Computational Geometry</h2>
+				<p>I like to solve problems in online robot judge websites like URI Online Judge. My favorite category of problems is <a href='http://en.wikipedia.org/wiki/Computational_geometry'>computational geometry</a></p>
+				<p> Here is my <a href="https://www.urionlinejudge.com.br/judge/pt/profile/25281">Uri profile</a>.</p>
+			</div>
+		</section>
+		<section id='initiatives'>
+			<div class='center-div orange'>
+				<p>To create bigger things, we need more people envolved. These are some teams that I could participate on creation to do cool stuff.</p>
+			</div>
+			<h1>INITIATIVES</h1>
+			<div class="orange col-md-3">
+				<h2>Sinextra Game Studio</h2>
+				<img src="sinextra.png"/>
+				<p>In 2012 I attended the founding of the game development studio <a href="http://sinextra.com">Sinextra</a></p>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Educariun</h2>
+				<img src="educariun.png"/>
+				<p>I aways liked to teach things. So I started with 4 friends the <a href='http://educariun.com.br/'>Educariun</a>.</p>
+			</div>
+			<div class="orange col-md-3">
+				<h2>IME++</h2>
+				<img src="imepp.jpg"/>
+				<p>In my first year at IME, I felt a lack of a group of 'techie-people' to participate of programming marathon and game jams. So I and some friends created <a href='http://imeplusplus.com.br/'>IME++</a>.</p>
+			</div>
+			<div class="orange col-md-3">
+				<h2>IME Startup</h2>
+				<img src="imestartup.jpg"/>
+				<p>In the second year, I felt a lack of entrepreneur </p>
+			</div>
+		</section>
+		<section id='websites'>
+			<div class='center-div orange'>
+				<p>I also make websites for <s>money</s> fun!</p>
+			</div>
+			<h1>WEBSITES</h1>
+			<div id="wconstrucao" class="orange col-md-3">
+				<p>Website intended to be a intermediate for product sales and services hiring in contruction market.</p>
+				<a href="http://wconstrucao.com.br"><img src="wconstrucao.png"></a>
+				<p><b>Time taken:</b> 5 months</p>
+				<p><b>Tool:</b> Ruby on Rails</p>
+			</div>
+			<div id="enedmg2015" class="orange col-md-3">
+				<p>Website developed to Nacional Meeting for Law Students.</p>
+				<a href="http://enedmg2015.com.br"><img src="enedmg2015.png"></a>
+				<p><b>Time taken:</b> 2 months</p>
+				<p><b>Tool:</b> Ruby on Rails</p>
+			</div>
+		</section>
+		<section id='comics'>
+			<div class='center-div orange'>
+				<p>Comics! ... Yes...thats it.</p>
+			</div>
+			<h1>COMICS</h1>
+			<div class="orange">
+				<h2>A Saga Simão</h2>
+				<p>In 2012 I tried to make an superhero-webcomic and this was the result:</p>
+				<a href="https://dl.dropboxusercontent.com/u/3990369/a-saga-simao/index.html">link to online reading</a>
+			</div>
+		</section>
+		<section id='paintings'>
+			<div class='center-div orange'>
+				<p>In my rare free times I like to draw. I'm not good at this, but I like.</p>
+			</div>
+			<h1>PAINTINGS</h1>
+			<div class='galery orange col-md-3'><a href="desenhos/18.08.2010.png"><img class='painting' src='desenhos/thumb/18.08.2010.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/Bang.png"><img class='painting' src='desenhos/thumb/Bang.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/bum!.jpg"><img class='painting' src='desenhos/thumb/bum!.jpg'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/cavaleiro.png"><img class='painting' src='desenhos/thumb/cavaleiro.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/cyberpunk.png"><img class='painting' src='desenhos/thumb/cyberpunk.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/dorothy.png"><img class='painting' src='desenhos/thumb/dorothy.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/empity space.jpg"><img class='painting' src='desenhos/thumb/empity space.jpg'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/final.png"><img class='painting' src='desenhos/thumb/final.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/giovanna.png"><img class='painting' src='desenhos/thumb/giovanna.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/icarus.jpg"><img class='painting' src='desenhos/thumb/icarus.jpg'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/jump.png"><img class='painting' src='desenhos/thumb/jump.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/menor.png"><img class='painting' src='desenhos/thumb/menor.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/metroid.png"><img class='painting' src='desenhos/thumb/metroid.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/nave.png"><img class='painting' src='desenhos/thumb/nave.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/red.png"><img class='painting' src='desenhos/thumb/red.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/sora.jpg"><img class='painting' src='desenhos/thumb/sora.jpg'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/rock.png"><img class='painting' src='desenhos/thumb/rock.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/skateboy.png"><img class='painting' src='desenhos/thumb/skateboy.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/space.png"><img class='painting' src='desenhos/thumb/space.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/spacefall.png"><img class='painting' src='desenhos/thumb/spacefall.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/superman.png"><img class='painting' src='desenhos/thumb/superman.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/thaman.png"><img class='painting' src='desenhos/thumb/thaman.png'></a></div>
+			<div class='galery orange col-md-3'><a href="desenhos/zangado.png"><img class='painting' src='desenhos/thumb/zangado.png'></a></div>
+		</section>
+		<section id='tutorials'>
+			<div class='center-div orange'>
+				<p>The more you want to Learn, the more you like to teach.</p>
+			</div>
+			<h1>TUTORIALS</h1>
+			<div class="orange col-md-3">
+				<h2>Java</h2>
+				<iframe src="https://www.youtube.com/embed/byI3i8K-eKo?list=PL7B8EC2E31601F3FD" frameborder="0" allowfullscreen></iframe>
+				<p>A series of basic java tutorials</p>
+				<ul>
+					<div><a href="https://www.youtube.com/watch?v=byI3i8K-eKo&index=1&list=PL7B8EC2E31601F3FD">Lesson 1 - introduction</a></div>
+					<div><a href="https://www.youtube.com/watch?v=rQwPIvNAU_A&index=2&list=PL7B8EC2E31601F3FD">Lesson 2 - data types</a></div>
+					<div><a href="https://www.youtube.com/watch?v=UThQu13ApCw&index=3&list=PL7B8EC2E31601F3FD">Lesson 3 - input and flux control</a></div>
+					<div><a href="https://www.youtube.com/watch?v=nc13zED8TQk&index=4&list=PL7B8EC2E31601F3FD">Lesson 4 - loops</a></div>
+					<div><a href="https://www.youtube.com/watch?v=j33YxLCbOFc&index=5&list=PL7B8EC2E31601F3FD">Lesson 5 - multiple classes</a></div>
+					<div><a href="https://www.youtube.com/watch?v=IUrzSmGaQbM&index=6&list=PL7B8EC2E31601F3FD">Lesson 6 - algorithm of divisors</a></div>
+					<div><a href="https://www.youtube.com/watch?v=ZN9jjfEgNwo&index=7&list=PL7B8EC2E31601F3FD">Lesson 7 - OO properties</a></div>
+					<div><a href="https://www.youtube.com/watch?v=t7QaQsD90JY&index=8&list=PL7B8EC2E31601F3FD">Lesson 8 - graphical user interface</a></div>
+				</ul>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Set Theory</h2>
+				<iframe src="https://www.youtube.com/embed/DQqRVdmkNk0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Logic</h2>
+				<iframe src="https://www.youtube.com/embed/9piXTMryqBg" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Ruby on Rails</h2>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Android Development</h2>
+			</div>
+		</section>
+		<section id='prizes'>
+			<div class='center-div orange'>
+				<p>There is a few competitions I was awarded.</p>
+			</div>
+			<h1>PRIZES</h1>
+			<div class="orange col-md-3">
+				<ul>
+					<li>2009 - Chemistry  (Pará)</li>
+					<li>2010 - Mathematics Bronze (Pará)</li>
+					<li>2011 - Mathematics Silver (Pará)</li>
+					<li>2011 - Mathematics Silver (Pará)</li>
+					<li>2011 - Game Developmen 5<sup>th</sup> place (E-Games Brazil)</li>
+					<li>2014 - Chess Gold (IME)</li>
+					<li>2014 - Programming 5<sup>th</sup> place (Rio de Janeiro)</li>
+				</ul>
+			</div>
+		</section>
+		<section id='musics'>
+			<div class='center-div orange'>
+				<p>Making games alone can teach you so many things!</p>
+			</div>
+			<h2>MUSICS</h2>
+			<div class="orange col-md-3">
+				<h2>Negolossauro Rex</h2>
+				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788182&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+			<div class="orange col-md-3">
+				<h2>Planeta Desconhecido</h2>
+				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788181&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+		</section>
 	</div>
-	<section id='games'>
-		<div class='center-div orange'>
-			<p>Games! they are my passion! I'm aways making games...at least when it's possible.</p>
-		</div>
-		<br>
-		<h1>GAMES</h1>
-		<ul>
-			<li class="orange tile">
-				<h2>Burglar Olympics</h2>
-				<img class='thumbnail' src='jogos/burglar.jpg'>
-				<p>This game was made for the #BotafogoGameJam. Check it out the newest Olympic game to be presented at Rio 2016 Summer Olympics with the following categories: Athletics, Cycling, Both, With your money and Just don't get caught by those cops...  </p>
-				<p><a href='http://gamejolt.com/games/burglar-olympics/133078'>Game Jolt Page</a></p>
-				<p><b>time taken:</b> 48 hours</p>
-			</li>
-			<li class="orange tile">
-				<h2>Moça Nova</h2>
-				<img class='thumbnail' src='jogos/mocanova.png'>
-				<p>A tribe from Amazon carries out a ritual for female teenagers in their first period. In this time, they are able to see demons in men wearing a mystic mask.</p>
-				<p><a href='http://globalgamejam.org/2016/games/mo%C3%A7a-nova-ritual'>Download android apk</a></p>
-				<p><b>time taken:</b> 48 hours</p>
-			</li>
-			<li class="orange tile">
-				<h2>Kaplansky</h2>
-				<iframe class="thumbnail" src="https://www.youtube.com/embed/aV_dipXIF78" frameborder="0" allowfullscreen></iframe>
-				<p>A project in continuous development to be a big extension of Bad Piggies ideas.</p>
-				<p><b>time taken:</b> On Going</p>
-			</li>
-			<li class="orange tile">
-				<h2>Lumber Jackeline</h2>
-				<iframe  class='thumbnail' src='https://www.youtube.com/embed/Ha4gJtE-R7k'></iframe>
-				<p>Jackeline wants to be a lumberjack, but she is cursed and, without a beard, she can't become one. Now she must overcome a few challenges to achieve her truest dream.</p>
-				<p>This game was made in 2015 Global Game Jam, with me and Sinextra guys.</p>
-				<p><b>time taken:</b> 2 days</p>
-			</li>
-			<li class="orange tile">
-				<h2>Connected World Airlines</h2>
-				<img class='thumbnail' src='jogos/ld30.jpg'>
-				<p>Connected world airlines is a game that I made with 4 friends to ludum dare 30
-				The game can be played online.</p>
-				<p><a href='http://imeplusplus.github.io/LD30/postCompo.html'>Play online!</a></p>
-				<p><b>time taken:</b> 3 days</p>
-			</li>
-			<li class="orange tile">
-				<h2>Calabouço do Android</h2>
-				<iframe  class='thumbnail' src='https://www.youtube.com/embed/k-ZkpgL_WVU'></iframe>
-				<p>I participated in the production of this game with sinextra game studio, this advergame, developed for <i>calabouço do android</i>,it's a infinity runner, canabalt/jetpack joyride like. The game is playable online both in calabouço's website and newgrounds.</p>
-				<p><a href='http://www.newgrounds.com/portal/view/624726'>Play online!</a></p>
-				<p><b>time taken:</b> 1 month</p>
-			</li>
-			<li class="orange tile">
-				<h2>I Want My Parrot</h2>
-				<iframe  class='thumbnail' src='https://www.youtube.com/embed/Q8iylXeW114'></iframe>
-				<p>I Want My Parrot was my first commercial participation in game production, I participated in the development with Sinextra Game Studio. This is about the journey of Captain Pierre whose parrot was stolen, suposely by Empire.</p>
-				<p>Game canceled.</p>
-				<p><b>time taken:</b> 1 life!</p>
-			</li>
-			<li class="orange tile">
-				<h2>Arena Robô 2 - Segunda Carga</h2>
-				<img class='thumbnail' src='jogos/ar2.png'>
-				<p>This game, made to e-games 2011 contest, take me into 5th national position as finalist.</p>
-				<a href='https://dl.dropboxusercontent.com/u/3990369/arena2.rar'>Download - 13,6 MB</a>
-				<p><b>time taken:</b> 2 months</p>
-			</li>
-			<li class="orange tile">
-				<h2>Arena Robô</h2>
-				<img class='thumbnail' src='jogos/ar.jpeg'>
-				<p>In Arena Robô, your mission is to blow it up and eliminate as many robots as possible, this game was made for a forum contest, is actually one of my favorites.</p>
-				<a href='https://dl.dropboxusercontent.com/u/3990369/arena%20rob%C3%B4.exe'>Download - 4,9 MB</a>
-				<p><b>time taken:</b> 3 days</p>
-			</li>
-			<li class="orange tile">
-				<h2>Relâmpago 14</h2>
-				<img class='thumbnail' src='jogos/r14.jpg'>
-				<p>This game was another simple test drive to create an open-world metroidvania game.</p>
-				<a href='https://dl.dropboxusercontent.com/u/3990369/Relampago%2014%20-%20O%20Resgate.rar'>Download - 7,2 MB</a>
-				<p><b>time taken:</b> 5 days</p>
-			</li>
-			<li class="orange tile">
-				<h2>Super Desafio</h2>
-				<img class='thumbnail' src='jogos/sd.jpg'>
-				<p>Super Desafio is a simple platformer game with extremely high difficulty, hence the name, which can take you to exhaustion. A lot of skill are required to achieve the end.</p>
-				<a href='https://dl.dropboxusercontent.com/u/3990369/super%20desafio.exe'>Download - 20,8 MB</a>
-				<p><b>time taken:</b> 1 week</p>
-			</li>
-			<li class="orange tile">
-				<h2>X-58</h2>
-				<img class='thumbnail' src='jogos/x58.jpg'>
-				<p>X-58 was my first top-down shooter test, in which the player controls Cezar, a special agent sent to hold a wave of zombies (what innovative!). Had help of Thiago R. Siqueira for sound design.</p>
-				<a href='https://dl.dropboxusercontent.com/u/3990369/x-58.exe'>Download - 9,8 MB</a>
-				<p><b>time taken:</b> 2 weeks</p>
-			</li>
-		</ul>
-	</section>
-	<section id='programming'>
-		<div class='center-div orange'>
-			<p>General programming stuff. Here are some experimentations and researches done in college.</p>
-		</div>
-		<h1>PROGRAMMING</h1>
-		<div class="orange tile">
-			<h2>Computer Vision</h2>
-			<p>My curret research work in college is about <a href='http://en.wikipedia.org/wiki/Computer_vision'>computer vision</a>, where I'm trying to extract information from mathematical handwriting</p>
-			<img src='cv.png'></img>
-			<p><a href="https://github.com/brunovcosta/tema-dirigido">Undergraduating project using Kinect & Lego EV3.</a></p>
-			<p><a href="https://github.com/brunovcosta/pibiti">Undergraduating research using OpenCV to compute handwrited digits.</a></p>
-		</div>
-		<div class="orange tile">
-			<h2>Robotics & Automation</h2>
-			<img src="robotics.jpg"/>
-			<p>As I play with imagery detection, I started to play with robots.</p>
-			<p>I also studied drones auto-piloting with crazyflie</p>
-			<p>My experiences with hardware envolved arduino and ev3.</p>
-			<p><a href="https://github.com/brunovcosta/cerveja-conex">Home automation tests using Ruby on Rails & Arduino.</a></p>
-		</div>
-		<div class="orange tile">
-			<h2>Agent Based Modeling</h2>
-			<p>In 2012 I worked in economics based computational modeling. I used Java with <a href='http://repast.sourceforge.net/'>Repast Suite</a>.</p>
-		</div>
-		<div class="orange tile">
-			<h2>Computational Geometry</h2>
-			<p>I like to solve problems in online robot judge websites like TopCoder and URI Online Judge. My favorite category of problems is <a href='http://en.wikipedia.org/wiki/Computational_geometry'>computational geometry</a></p>
-		</div>
-	</section>
-	<section id='initiatives'>
-		<div class='center-div orange'>
-			<p>To create bigger things, we need more people envolved. These are some teams that I could participate on creation to do cool stuff.</p>
-		</div>
-		<h1>INITIATIVES</h1>
-		<div class="orange tile">
-			<h2>Sinextra Game Studio</h2>
-			<img src="sinextra.png"/>
-			<p>In 2012 I attended the founding of the game development studio <a href="http://sinextra.com">Sinextra</a></p>
-		</div>
-		<div class="orange tile">
-			<h2>Educariun</h2>
-			<img src="educariun.png"/>
-			<p>I aways liked to teach things. So I started with 4 friends the <a href='http://educariun.com.br/'>Educariun</a>.</p>
-		</div>
-		<div class="orange tile">
-			<h2>IME++</h2>
-			<img src="imepp.jpg"/>
-			<p>In my first year at IME, I felt a lack of a group of 'techie-people' to participate of programming marathon and game jams. So I and some friends created <a href='http://imeplusplus.com.br/'>IME++</a>.</p>
-		</div>
-		<div class="orange tile">
-			<h2>IME Startup</h2>
-			<img src="imestartup.jpg"/>
-			<p>In the second year, I felt a lack of entrepreneur </p>
-		</div>
-	</section>
-	<section id='websites'>
-		<div class='center-div orange'>
-			<p>I also make websites for <s>money</s> fun!</p>
-		</div>
-		<h1>WEBSITES</h1>
-		<div id="wconstrucao" class="orange tile">
-			<p>Website intended to be a intermediate for product sales and services hiring in contruction market.</p>
-			<a href="http://wconstrucao.com.br"><img src="wconstrucao.png"></a>
-			<p><b>Time taken:</b> 5 months</p>
-			<p><b>Tool:</b> Ruby on Rails</p>
-		</div>
-		<div id="enedmg2015" class="orange tile">
-			<p>Website developed to Nacional Meeting for Law Students.</p>
-			<a href="http://enedmg2015.com.br"><img src="enedmg2015.png"></a>
-			<p><b>Time taken:</b> 2 months</p>
-			<p><b>Tool:</b> Ruby on Rails</p>
-		</div>
-	</section>
-	<section id='comics'>
-		<div class='center-div orange'>
-			<p>Comics! ... Yes...thats it.</p>
-		</div>
-		<h1>COMICS</h1>
-		<div class="orange">
-			<h2>A Saga Simão</h2>
-			<p>In 2012 I tried to make an superhero-webcomic and this was the result:</p>
-			<a href="https://dl.dropboxusercontent.com/u/3990369/a-saga-simao/index.html">link to online reading</a>
-		</div>
-	</section>
-	<section id='paintings'>
-		<div class='center-div orange'>
-			<p>In my rare free times I like to draw. I'm not good at this, but I like.</p>
-		</div>
-		<h1>PAINTINGS</h1>
-		<div class='galery orange tile'><a href="desenhos/18.08.2010.png"><img class='painting' src='desenhos/thumb/18.08.2010.png'></div></a>
-			<div class='galery orange tile'><a href="desenhos/Bang.png"><img class='painting' src='desenhos/thumb/Bang.png'></div></a>
-				<div class='galery orange tile'><a href="desenhos/bum!.jpg"><img class='painting' src='desenhos/thumb/bum!.jpg'></div></a>
-					<div class='galery orange tile'><a href="desenhos/cavaleiro.png"><img class='painting' src='desenhos/thumb/cavaleiro.png'></div></a>
-						<div class='galery orange tile'><a href="desenhos/cyberpunk.png"><img class='painting' src='desenhos/thumb/cyberpunk.png'></div></a>
-							<div class='galery orange tile'><a href="desenhos/dorothy.png"><img class='painting' src='desenhos/thumb/dorothy.png'></div></a>
-								<div class='galery orange tile'><a href="desenhos/empity space.jpg"><img class='painting' src='desenhos/thumb/empity space.jpg'></div></a>
-									<div class='galery orange tile'><a href="desenhos/final.png"><img class='painting' src='desenhos/thumb/final.png'></div></a>
-										<div class='galery orange tile'><a href="desenhos/giovanna.png"><img class='painting' src='desenhos/thumb/giovanna.png'></div></a>
-											<div class='galery orange tile'><a href="desenhos/icarus.jpg"><img class='painting' src='desenhos/thumb/icarus.jpg'></div></a>
-												<div class='galery orange tile'><a href="desenhos/jump.png"><img class='painting' src='desenhos/thumb/jump.png'></div></a>
-													<div class='galery orange tile'><a href="desenhos/menor.png"><img class='painting' src='desenhos/thumb/menor.png'></div></a>
-														<div class='galery orange tile'><a href="desenhos/metroid.png"><img class='painting' src='desenhos/thumb/metroid.png'></div></a>
-															<div class='galery orange tile'><a href="desenhos/nave.png"><img class='painting' src='desenhos/thumb/nave.png'></div></a>
-																<div class='galery orange tile'><a href="desenhos/red.png"><img class='painting' src='desenhos/thumb/red.png'></div></a>
-																	<div class='galery orange tile'><a href="desenhos/sora.jpg"><img class='painting' src='desenhos/thumb/sora.jpg'></div></a>
-																		<div class='galery orange tile'><a href="desenhos/rock.png"><img class='painting' src='desenhos/thumb/rock.png'></div></a>
-																			<div class='galery orange tile'><a href="desenhos/skateboy.png"><img class='painting' src='desenhos/thumb/skateboy.png'></div></a>
-																				<div class='galery orange tile'><a href="desenhos/space.png"><img class='painting' src='desenhos/thumb/space.png'></div></a>
-																					<div class='galery orange tile'><a href="desenhos/spacefall.png"><img class='painting' src='desenhos/thumb/spacefall.png'></div></a>
-																						<div class='galery orange tile'><a href="desenhos/superman.png"><img class='painting' src='desenhos/thumb/superman.png'></div></a>
-																							<div class='galery orange tile'><a href="desenhos/thaman.png"><img class='painting' src='desenhos/thumb/thaman.png'></div></a>
-																								<div class='galery orange tile'><a href="desenhos/zangado.png"><img class='painting' src='desenhos/thumb/zangado.png'></div></a>
-	</section>
-	<section id='tutorials'>
-		<div class='center-div orange'>
-			<p>The more you want to Learn, the more you like to teach.</p>
-		</div>
-		<h1>TUTORIALS</h1>
-		<div class="orange tile">
-			<h2>Java</h2>
-			<iframe src="https://www.youtube.com/embed/byI3i8K-eKo?list=PL7B8EC2E31601F3FD" frameborder="0" allowfullscreen></iframe>
-			<p>A series of basic java tutorials</p>
-			<ul>
-				<li><a href="https://www.youtube.com/watch?v=byI3i8K-eKo&index=1&list=PL7B8EC2E31601F3FD">Lesson 1 - introduction</a></li>
-				<li><a href="https://www.youtube.com/watch?v=rQwPIvNAU_A&index=2&list=PL7B8EC2E31601F3FD">Lesson 2 - data types</a></li>
-				<li><a href="https://www.youtube.com/watch?v=UThQu13ApCw&index=3&list=PL7B8EC2E31601F3FD">Lesson 3 - input and flux control</a></li>
-				<li><a href="https://www.youtube.com/watch?v=nc13zED8TQk&index=4&list=PL7B8EC2E31601F3FD">Lesson 4 - loops</a></li>
-				<li><a href="https://www.youtube.com/watch?v=j33YxLCbOFc&index=5&list=PL7B8EC2E31601F3FD">Lesson 5 - multiple classes</a></li>
-				<li><a href="https://www.youtube.com/watch?v=IUrzSmGaQbM&index=6&list=PL7B8EC2E31601F3FD">Lesson 6 - algorithm of divisors</a></li>
-				<li><a href="https://www.youtube.com/watch?v=ZN9jjfEgNwo&index=7&list=PL7B8EC2E31601F3FD">Lesson 7 - OO properties</a></li>
-				<li><a href="https://www.youtube.com/watch?v=t7QaQsD90JY&index=8&list=PL7B8EC2E31601F3FD">Lesson 8 - graphical user interface</a></li>
-			</ul>
-		</div>
-		<div class="orange tile">
-			<h2>Set Theory</h2>
-			<iframe src="https://www.youtube.com/embed/DQqRVdmkNk0" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="orange tile">
-			<h2>Logic</h2>
-			<iframe src="https://www.youtube.com/embed/9piXTMryqBg" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="orange tile">
-			<h2>Ruby on Rails</h2>
-		</div>
-		<div class="orange tile">
-			<h2>Android Development</h2>
-		</div>
-	</section>
-	<section id='prizes'>
-		<div class='center-div orange'>
-			<p>There is a few competitions I was awarded.</p>
-		</div>
-		<h1>PRIZES</h1>
-		<div class="orange tile">
-			<ul>
-				<li>2009 - Chemistry  (Pará)</li>
-				<li>2010 - Mathematics Bronze (Pará)</li>
-				<li>2011 - Mathematics Silver (Pará)</li>
-				<li>2011 - Mathematics Silver (Pará)</li>
-				<li>2011 - Game Developmen 5<sup>th</sup> place (E-Games Brazil)</li>
-				<li>2014 - Chess Gold (IME)</li>
-				<li>2014 - Programming 5<sup>th</sup> place (Rio de Janeiro)</li>
-			</ul>
-		</div>
-	</section>
-	<section id='musics'>
-		<div class='center-div orange'>
-			<p>Making games alone can teach you so many things!</p>
-		</div>
-		<h2>MUSICS</h2>
-		<div class="orange tile">
-			<h2>Negolossauro Rex</h2>
-			<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788182&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-		</div>
-		<div class="orange tile">
-			<h2>Planeta Desconhecido</h2>
-			<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788181&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-		</div>
-	</section>
 </body>
 </html>
 
