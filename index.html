@@ -14,24 +14,24 @@
 			<!--		<img src='laranja.png' />  -->
 			<h1>HI THERE!</h1>
 			<p>I'm Bruno Vieira Costa. Student of Military Institute of Engineering, I'm a passionate programmer and a hobbyst artist. Here you can find some of my creations.</p>
-			<p>Contact: brunovcosta@outlook.com</p>
+			<p>Email: brunovcosta@outlook.com</p>
 			<p>Twitter: <a href='https://twitter.com/bruno_vcosta'>@bruno_vcosta</a></p>
 			<div class="center-div">
-				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default main-item" data-link='#games' id='main-games'>GAMES                  </button>
-					<button type="button" class="btn btn-default main-item" data-link='#programming' id='main-programming'>PROGRAMMING</button>
-					<button type="button" class="btn btn-default main-item" data-link='#initiatives' id='main-initiatives'>FOUNDATIONS</button>
-					<button type="button" class="btn btn-default main-item" data-link='#websites' id='main-websites'>WEBSITES         </button>
-					<button type="button" class="btn btn-default main-item" data-link='#paintings' id='main-paintings'>PAINTINGS      </button>
-					<button type="button" class="btn btn-default main-item" data-link='#prizes' id='main-prizes'>PRIZES               </button>
-					<button type="button" class="btn btn-default main-item" data-link='#musics' id='main-musics'>MUSICS               </button>
-					<button type="button" class="btn btn-default main-item" data-link='comics' id='main-comics'>COMICS                </button>
-					<button type="button" class="btn btn-default main-item" data-link='tutorials' id='main-tutorials'>TUTORIALS       </button>
-				</div>
+				<ul class="breadcrumb" role="group">
+					<li class="main-item" data-link='#games'       id='main-games      '>GAMES      </li>
+					<li class="main-item" data-link='#programming' id='main-programming'>PROGRAMMING</li>
+					<li class="main-item" data-link='#initiatives' id='main-initiatives'>FOUNDATIONS</li>
+					<li class="main-item" data-link='#websites'    id='main-websites   '>WEBSITES   </li>
+					<li class="main-item" data-link='#art'         id='main-art        '>ART        </li>
+					<li class="main-item" data-link='#prizes'      id='main-prizes     '>PRIZES     </li>
+					<li class="main-item" data-link='#music'       id='main-music      '>MUSIC      </li>
+					<li class="main-item" data-link='#comics'      id='main-comics     '>COMICS     </li>
+					<li class="main-item" data-link='#education'   id='main-education  '>EDUCATION  </li>
+				</ul>
 			</div>
 		</div>
 		<section id='games'>
-			<div class='center-div orange'>
+			<div class='center-div section-description'>
 				<p>Games! they are my passion! I'm aways making games...at least when it's possible.</p>
 			</div>
 			<br>
@@ -124,183 +124,201 @@
 			</div>
 		</section>
 		<section id='programming'>
-			<div class='center-div orange'>
-				<p>General programming stuff. Here are some experimentations and researches done in college.</p>
+			<div class='center-div section-description'>
+				<p>General programming stuff. Here are some experimentations and researches done in college. More random stuff can be found in my <a href="https://github.com/brunovcosta">GitHub profile</a>.</p>
 			</div>
 			<h1>PROGRAMMING</h1>
-			<div class="orange col-md-3">
-				<h2>Computer Vision</h2>
-				<p>My curret research work in college is about <a href='http://en.wikipedia.org/wiki/Computer_vision'>computer vision</a>, where I'm trying to extract information from mathematical handwriting</p>
-				<img src='cv.png'></img>
-				<p><a href="https://github.com/brunovcosta/tema-dirigido">Undergraduating project using Kinect & Lego EV3.</a></p>
-				<p><a href="https://github.com/brunovcosta/pibiti">Undergraduating research using OpenCV to compute handwrited digits.</a></p>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Robotics & Automation</h2>
-				<img src="robotics.jpg"/>
-				<p>As I play with imagery detection, I started to play with robots.</p>
-				<p>I also studied drones auto-piloting with crazyflie</p>
-				<p>My experiences with hardware envolved arduino and ev3.</p>
-				<p><a href="https://github.com/brunovcosta/cerveja-conex">Home automation tests using Ruby on Rails & Arduino.</a></p>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Agent Based Modeling</h2>
-				<p>In 2012 I worked in economics based computational modeling. I used Java with <a href='http://repast.sourceforge.net/'>Repast Suite</a>.</p>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Computational Geometry</h2>
-				<p>I like to solve problems in online robot judge websites like URI Online Judge. My favorite category of problems is <a href='http://en.wikipedia.org/wiki/Computational_geometry'>computational geometry</a></p>
-				<p> Here is my <a href="https://www.urionlinejudge.com.br/judge/pt/profile/25281">Uri profile</a>.</p>
+			<div class="row">
+				<div class="orange col-md-3">
+					<h2>Computer Vision</h2>
+					<p>My curret research work in college is about <a href='http://en.wikipedia.org/wiki/Computer_vision'>computer vision</a>, where I'm trying to extract information from mathematical handwriting</p>
+					<img src='cv.png'></img>
+					<p><a href="https://github.com/brunovcosta/tema-dirigido">Undergraduating project using Kinect & Lego EV3.</a></p>
+					<p><a href="https://github.com/brunovcosta/pibiti">Undergraduating research using OpenCV to compute handwrited digits.</a></p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Robotics & Automation</h2>
+					<img src="robotics.jpg"/>
+					<p>As I play with imagery detection, I started to play with robots.</p>
+					<p>I also studied drones auto-piloting with crazyflie</p>
+					<p>My experiences with hardware envolved arduino and ev3.</p>
+					<p><a href="https://github.com/brunovcosta/cerveja-conex">Home automation tests using Ruby on Rails & Arduino.</a></p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Agent Based Modeling</h2>
+					<p>In 2012 I worked in economics based computational modeling. I used Java with <a href='http://repast.sourceforge.net/'>Repast Suite</a>.</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Computational Geometry</h2>
+					<p>I like to solve problems in online robot judge websites like URI Online Judge. My favorite category of problems is <a href='http://en.wikipedia.org/wiki/Computational_geometry'>computational geometry</a></p>
+					<p> Here is my <a href="https://www.urionlinejudge.com.br/judge/pt/profile/25281">Uri profile</a>.</p>
+				</div>
 			</div>
 		</section>
 		<section id='initiatives'>
-			<div class='center-div orange'>
+			<div class='center-div section-description'>
 				<p>To create bigger things, we need more people envolved. These are some teams that I could participate on creation to do cool stuff.</p>
 			</div>
 			<h1>INITIATIVES</h1>
-			<div class="orange col-md-3">
-				<h2>Sinextra Game Studio</h2>
-				<img src="sinextra.png"/>
-				<p>In 2012 I attended the founding of the game development studio <a href="http://sinextra.com">Sinextra</a></p>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Educariun</h2>
-				<img src="educariun.png"/>
-				<p>I aways liked to teach things. So I started with 4 friends the <a href='http://educariun.com.br/'>Educariun</a>.</p>
-			</div>
-			<div class="orange col-md-3">
-				<h2>IME++</h2>
-				<img src="imepp.jpg"/>
-				<p>In my first year at IME, I felt a lack of a group of 'techie-people' to participate of programming marathon and game jams. So I and some friends created <a href='http://imeplusplus.com.br/'>IME++</a>.</p>
-			</div>
-			<div class="orange col-md-3">
-				<h2>IME Startup</h2>
-				<img src="imestartup.jpg"/>
-				<p>In the second year, I felt a lack of entrepreneur </p>
+			<div class="row">
+				<div class="orange col-md-3">
+					<h2>Sinextra Game Studio</h2>
+					<img src="sinextra.png"/>
+					<p>In 2012 I attended the founding of the game development studio <a href="http://sinextra.com">Sinextra</a></p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Educariun</h2>
+					<img src="educariun.png"/>
+					<p>I aways liked to teach things. So I started with 4 friends the <a href='http://educariun.com.br/'>Educariun</a>.</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>IME++</h2>
+					<img src="imepp.jpg"/>
+					<p>In my first year at IME, I felt a lack of a group of 'techie-people' to participate of programming marathon and game jams. So I and some friends created <a href='http://imeplusplus.com.br/'>IME++</a>.</p>
+				</div>
+				<div class="orange col-md-3">
+					<h2>IME Startup</h2>
+					<img src="imestartup.jpg"/>
+					<p>In the second year, I felt a lack of entrepreneur </p>
+				</div>
 			</div>
 		</section>
 		<section id='websites'>
-			<div class='center-div orange'>
+			<div class='center-div section-description'>
 				<p>I also make websites for <s>money</s> fun!</p>
 			</div>
 			<h1>WEBSITES</h1>
-			<div id="wconstrucao" class="orange col-md-3">
-				<p>Website intended to be a intermediate for product sales and services hiring in contruction market.</p>
-				<a href="http://wconstrucao.com.br"><img src="wconstrucao.png"></a>
-				<p><b>Time taken:</b> 5 months</p>
-				<p><b>Tool:</b> Ruby on Rails</p>
-			</div>
-			<div id="enedmg2015" class="orange col-md-3">
-				<p>Website developed to Nacional Meeting for Law Students.</p>
-				<a href="http://enedmg2015.com.br"><img src="enedmg2015.png"></a>
-				<p><b>Time taken:</b> 2 months</p>
-				<p><b>Tool:</b> Ruby on Rails</p>
+			<div class="row">
+				<div id="wconstrucao" class="orange col-md-3">
+					<h2>WConstrução</h2>
+					<p>Website intended to be a intermediate for product sales and services hiring in contruction market.</p>
+					<a href="http://wconstrucao.com.br"><img src="wconstrucao.png"></a>
+					<p><b>Time taken:</b> 5 months</p>
+					<p><b>Tool:</b> Ruby on Rails</p>
+				</div>
+				<div id="enedmg2015" class="orange col-md-3">
+					<h2>ENEDMG2015</h2>
+					<p>Website developed to Nacional Meeting for Law Students.</p>
+					<a href="http://enedmg2015.com.br"><img src="enedmg2015.png"></a>
+					<p><b>Time taken:</b> 2 months</p>
+					<p><b>Tool:</b> Ruby on Rails</p>
+				</div>
 			</div>
 		</section>
 		<section id='comics'>
-			<div class='center-div orange'>
+			<div class='center-div section-description'>
 				<p>Comics! ... Yes...thats it.</p>
 			</div>
 			<h1>COMICS</h1>
-			<div class="orange">
-				<h2>A Saga Simão</h2>
-				<p>In 2012 I tried to make an superhero-webcomic and this was the result:</p>
-				<a href="https://dl.dropboxusercontent.com/u/3990369/a-saga-simao/index.html">link to online reading</a>
+			<div class="row">
+				<div class="orange">
+					<h2>A Saga Simão</h2>
+					<p>In 2012 I tried to make an superhero-webcomic and this was the result:</p>
+					<a href="https://dl.dropboxusercontent.com/u/3990369/a-saga-simao/index.html">link to online reading</a>
+				</div>
 			</div>
 		</section>
-		<section id='paintings'>
-			<div class='center-div orange'>
+		<section id='art'>
+			<div class='center-div section-description'>
 				<p>In my rare free times I like to draw. I'm not good at this, but I like.</p>
 			</div>
-			<h1>PAINTINGS</h1>
-			<div class='galery orange col-md-3'><a href="desenhos/18.08.2010.png"><img class='painting' src='desenhos/thumb/18.08.2010.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/Bang.png"><img class='painting' src='desenhos/thumb/Bang.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/bum!.jpg"><img class='painting' src='desenhos/thumb/bum!.jpg'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/cavaleiro.png"><img class='painting' src='desenhos/thumb/cavaleiro.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/cyberpunk.png"><img class='painting' src='desenhos/thumb/cyberpunk.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/dorothy.png"><img class='painting' src='desenhos/thumb/dorothy.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/empity space.jpg"><img class='painting' src='desenhos/thumb/empity space.jpg'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/final.png"><img class='painting' src='desenhos/thumb/final.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/giovanna.png"><img class='painting' src='desenhos/thumb/giovanna.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/icarus.jpg"><img class='painting' src='desenhos/thumb/icarus.jpg'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/jump.png"><img class='painting' src='desenhos/thumb/jump.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/menor.png"><img class='painting' src='desenhos/thumb/menor.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/metroid.png"><img class='painting' src='desenhos/thumb/metroid.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/nave.png"><img class='painting' src='desenhos/thumb/nave.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/red.png"><img class='painting' src='desenhos/thumb/red.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/sora.jpg"><img class='painting' src='desenhos/thumb/sora.jpg'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/rock.png"><img class='painting' src='desenhos/thumb/rock.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/skateboy.png"><img class='painting' src='desenhos/thumb/skateboy.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/space.png"><img class='painting' src='desenhos/thumb/space.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/spacefall.png"><img class='painting' src='desenhos/thumb/spacefall.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/superman.png"><img class='painting' src='desenhos/thumb/superman.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/thaman.png"><img class='painting' src='desenhos/thumb/thaman.png'></a></div>
-			<div class='galery orange col-md-3'><a href="desenhos/zangado.png"><img class='painting' src='desenhos/thumb/zangado.png'></a></div>
+			<h1>ART</h1>
+			<div class="row">
+				<div class='galery col-md-3'><a href="desenhos/18.08.2010.png"><img class='painting' src='desenhos/thumb/18.08.2010.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/Bang.png"><img class='painting' src='desenhos/thumb/Bang.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/bum!.jpg"><img class='painting' src='desenhos/thumb/bum!.jpg'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/cavaleiro.png"><img class='painting' src='desenhos/thumb/cavaleiro.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/cyberpunk.png"><img class='painting' src='desenhos/thumb/cyberpunk.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/dorothy.png"><img class='painting' src='desenhos/thumb/dorothy.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/empity space.jpg"><img class='painting' src='desenhos/thumb/empity space.jpg'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/final.png"><img class='painting' src='desenhos/thumb/final.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/giovanna.png"><img class='painting' src='desenhos/thumb/giovanna.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/icarus.jpg"><img class='painting' src='desenhos/thumb/icarus.jpg'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/jump.png"><img class='painting' src='desenhos/thumb/jump.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/menor.png"><img class='painting' src='desenhos/thumb/menor.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/metroid.png"><img class='painting' src='desenhos/thumb/metroid.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/nave.png"><img class='painting' src='desenhos/thumb/nave.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/red.png"><img class='painting' src='desenhos/thumb/red.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/sora.jpg"><img class='painting' src='desenhos/thumb/sora.jpg'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/rock.png"><img class='painting' src='desenhos/thumb/rock.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/skateboy.png"><img class='painting' src='desenhos/thumb/skateboy.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/space.png"><img class='painting' src='desenhos/thumb/space.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/spacefall.png"><img class='painting' src='desenhos/thumb/spacefall.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/superman.png"><img class='painting' src='desenhos/thumb/superman.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/thaman.png"><img class='painting' src='desenhos/thumb/thaman.png'></a></div>
+				<div class='galery col-md-3'><a href="desenhos/zangado.png"><img class='painting' src='desenhos/thumb/zangado.png'></a></div>
+			</div>
 		</section>
-		<section id='tutorials'>
-			<div class='center-div orange'>
+		<section id='education'>
+			<div class='center-div section-description'>
 				<p>The more you want to Learn, the more you like to teach.</p>
 			</div>
-			<h1>TUTORIALS</h1>
-			<div class="orange col-md-3">
-				<h2>Java</h2>
-				<iframe src="https://www.youtube.com/embed/byI3i8K-eKo?list=PL7B8EC2E31601F3FD" frameborder="0" allowfullscreen></iframe>
-				<p>A series of basic java tutorials</p>
-				<ul>
-					<div><a href="https://www.youtube.com/watch?v=byI3i8K-eKo&index=1&list=PL7B8EC2E31601F3FD">Lesson 1 - introduction</a></div>
-					<div><a href="https://www.youtube.com/watch?v=rQwPIvNAU_A&index=2&list=PL7B8EC2E31601F3FD">Lesson 2 - data types</a></div>
-					<div><a href="https://www.youtube.com/watch?v=UThQu13ApCw&index=3&list=PL7B8EC2E31601F3FD">Lesson 3 - input and flux control</a></div>
-					<div><a href="https://www.youtube.com/watch?v=nc13zED8TQk&index=4&list=PL7B8EC2E31601F3FD">Lesson 4 - loops</a></div>
-					<div><a href="https://www.youtube.com/watch?v=j33YxLCbOFc&index=5&list=PL7B8EC2E31601F3FD">Lesson 5 - multiple classes</a></div>
-					<div><a href="https://www.youtube.com/watch?v=IUrzSmGaQbM&index=6&list=PL7B8EC2E31601F3FD">Lesson 6 - algorithm of divisors</a></div>
-					<div><a href="https://www.youtube.com/watch?v=ZN9jjfEgNwo&index=7&list=PL7B8EC2E31601F3FD">Lesson 7 - OO properties</a></div>
-					<div><a href="https://www.youtube.com/watch?v=t7QaQsD90JY&index=8&list=PL7B8EC2E31601F3FD">Lesson 8 - graphical user interface</a></div>
-				</ul>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Set Theory</h2>
-				<iframe src="https://www.youtube.com/embed/DQqRVdmkNk0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Logic</h2>
-				<iframe src="https://www.youtube.com/embed/9piXTMryqBg" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Ruby on Rails</h2>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Android Development</h2>
+			<h1>EDUCATION</h1>
+			<div class="row">
+				<div class="orange col-md-3">
+					<h2>Java</h2>
+					<iframe src="https://www.youtube.com/embed/byI3i8K-eKo?list=PL7B8EC2E31601F3FD" frameborder="0" allowfullscreen></iframe>
+					<p>A series of basic java tutorials</p>
+					<ul>
+						<div><a href="https://www.youtube.com/watch?v=byI3i8K-eKo&index=1&list=PL7B8EC2E31601F3FD">Lesson 1 - introduction</a></div>
+						<div><a href="https://www.youtube.com/watch?v=rQwPIvNAU_A&index=2&list=PL7B8EC2E31601F3FD">Lesson 2 - data types</a></div>
+						<div><a href="https://www.youtube.com/watch?v=UThQu13ApCw&index=3&list=PL7B8EC2E31601F3FD">Lesson 3 - input and flux control</a></div>
+						<div><a href="https://www.youtube.com/watch?v=nc13zED8TQk&index=4&list=PL7B8EC2E31601F3FD">Lesson 4 - loops</a></div>
+						<div><a href="https://www.youtube.com/watch?v=j33YxLCbOFc&index=5&list=PL7B8EC2E31601F3FD">Lesson 5 - multiple classes</a></div>
+						<div><a href="https://www.youtube.com/watch?v=IUrzSmGaQbM&index=6&list=PL7B8EC2E31601F3FD">Lesson 6 - algorithm of divisors</a></div>
+						<div><a href="https://www.youtube.com/watch?v=ZN9jjfEgNwo&index=7&list=PL7B8EC2E31601F3FD">Lesson 7 - OO properties</a></div>
+						<div><a href="https://www.youtube.com/watch?v=t7QaQsD90JY&index=8&list=PL7B8EC2E31601F3FD">Lesson 8 - graphical user interface</a></div>
+					</ul>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Set Theory</h2>
+					<iframe src="https://www.youtube.com/embed/DQqRVdmkNk0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Logic</h2>
+					<iframe src="https://www.youtube.com/embed/9piXTMryqBg" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Ruby on Rails</h2>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Android Development</h2>
+				</div>
 			</div>
 		</section>
 		<section id='prizes'>
-			<div class='center-div orange'>
+			<div class='center-div section-description'>
 				<p>There is a few competitions I was awarded.</p>
 			</div>
 			<h1>PRIZES</h1>
-			<div class="orange col-md-3">
-				<ul>
-					<li>2009 - Chemistry  (Pará)</li>
-					<li>2010 - Mathematics Bronze (Pará)</li>
-					<li>2011 - Mathematics Silver (Pará)</li>
-					<li>2011 - Mathematics Silver (Pará)</li>
-					<li>2011 - Game Developmen 5<sup>th</sup> place (E-Games Brazil)</li>
-					<li>2014 - Chess Gold (IME)</li>
-					<li>2014 - Programming 5<sup>th</sup> place (Rio de Janeiro)</li>
-				</ul>
+			<div class="row">
+				<div class="orange col-md-3">
+					<ul>
+						<li>2009 - Chemistry  (Pará)</li>
+						<li>2010 - Mathematics Bronze (Pará)</li>
+						<li>2011 - Mathematics Silver (Pará)</li>
+						<li>2011 - Mathematics Silver (Pará)</li>
+						<li>2011 - Game Developmen 5<sup>th</sup> place (E-Games Brazil)</li>
+						<li>2014 - Chess Gold (IME)</li>
+						<li>2014 - Programming 5<sup>th</sup> place (Rio de Janeiro)</li>
+					</ul>
+				</div>
 			</div>
 		</section>
-		<section id='musics'>
-			<div class='center-div orange'>
+		<section id='music'>
+			<div class='center-div section-description'>
 				<p>Making games alone can teach you so many things!</p>
 			</div>
-			<h2>MUSICS</h2>
-			<div class="orange col-md-3">
-				<h2>Negolossauro Rex</h2>
-				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788182&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-			</div>
-			<div class="orange col-md-3">
-				<h2>Planeta Desconhecido</h2>
-				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788181&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			<h2>MUSIC</h2>
+			<div class="row">
+				<div class="orange col-md-3">
+					<h2>Negolossauro Rex</h2>
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788182&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+				</div>
+				<div class="orange col-md-3">
+					<h2>Planeta Desconhecido</h2>
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172788181&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+				</div>
 			</div>
 		</section>
 	</div>
