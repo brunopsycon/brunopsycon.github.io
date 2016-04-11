@@ -1,0 +1,164 @@
+{
+	"basics": {
+		"name": "Bruno Vieira Costa",
+		"label": "Developer",
+		"email": "brunovcosta@outlook.com",
+		"phone": "+55 (21) 98023-8893",
+		"website": "http://brunovcosta.github.io",
+		"location": {
+			"address": "49 Joseph Bloch St",
+			"zipCode": "22031040",
+			"city": "Rio de Janeiro",
+			"countryCode": "BR",
+			"region": "Rio de Janeiro"
+		},
+		"profiles": [{
+			"network": "GitHub",
+			"username": "brunovcosta",
+			"url": "http://brunovcosta.github.io"
+		}]
+	},
+	"work": [{
+		"company": "Proex",
+		"position": "Scholarship researcher",
+		"website": "http://proex.ufpa.br/",
+		"startDate": "2012",
+		"endDate": "2012",
+		"summary": "Worked as Scholarship researcher in Economical Modeling",
+		"highlights": [
+			"Teacher of Computational Modeling with Java and Groovy",
+			"Agent Based Modeling and Simulation using Repast Suite"
+		]
+	},{
+		"company": "Sinextra Game Studio",
+		"position": "Programmer and Game Designer",
+		"website": "http://sinextra.com",
+		"startDate": "2012",
+		"endDate": "2013",
+		"summary": "Worked as programmer and game designer",
+		"highlights": [
+			"Cofounder",
+			"Programmer in Calabouço do android using C# and monogame"
+		]
+	},{
+		"company": "CNPq",
+		"position": "Scholarship researcher",
+		"website": "http://cnpq.br/",
+		"startDate": "2014",
+		"endDate": "2015",
+		"summary": "Worked as Scholarship researcher in Digital Image Processing",
+		"highlights": [
+			"Handwriting recognition using OpenCV with C/C++ and Python"
+		]
+	},{
+	"company": "IME Jr",
+	"position": "Technical Consultant and Developer",
+	"website": "http://imejunior.com.br/",
+	"startDate": "2014",
+	"endDate": "2016",
+	"summary": "Development of mobile apps and websites",
+	"highlights":[
+		"Full Stack developer in WConstrução using Ruby on Rails",
+		"Full Stack developer in ENEDMG 2011 using Ruby on Rails",
+		"Full Stack developer in an multi-platform scheduling system using Meteor"
+	]
+	},{
+	"company": "Espaço de Estudos Botafogo",
+	"position": "Developer",
+	"website": "http://costudying.org/",
+	"startDate": "2015",
+	"endDate": "Present",
+	"summary": "Development of technological solutions for education",
+	"highlights":[
+		"Cofounder"
+	]
+	}],
+	"volunteer": [{
+		"organization": "IME++",
+		"position": "President",
+		"website": "http://imeplusplus.com.br/",
+		"startDate": "2014",
+		"endDate": "2015",
+		"summary": "Development teacher and President",
+		"highlights": [
+			"Cofounder",
+			"Course of Game Development with Monogame",
+			"Course of Web Development with Ruby on Rails"
+	]
+	},{
+		"organization": "Espaço de Estudos Botafogo",
+		"position": "Volunteer",
+		"website": "http://costudying.org/",
+		"startDate": "2015",
+		"endDate": "Present",
+		"summary": "Techinical support and development",
+		"highlights": [
+			"Game Dev mini course with Ismart"
+	]
+	}],
+	"education": [{
+		"institution": "Federal University of Pará",
+		"area": "Computer Engineering",
+		"studyType": "Bachelor",
+		"startDate": "2012",
+		"endDate": "2013"
+	},{
+	"institution": "Military Institute of Engineering",
+	"area": "Computer Engineering",
+	"studyType": "Bachelor",
+	"startDate": "2014",
+	"endtDate": "Present"
+	}],
+	"skills": [{
+		"name": "Web Development",
+		"keywords": [
+			"HTML",
+			"CSS",
+			"Javascript",
+			"Ruby on Rails",
+			"Meteor",
+			"NodeJS",
+			"PHP"
+		]
+	},{
+	"name": "Game Development",
+	"keywords": [
+		"LibGDX",
+		"Monogame/XNA",
+		"Unity3D",
+		"LÖVE2D",
+		"OpenGL/SDL",
+		"Game Maker"
+	]
+	},{
+	"name": "Computer Vision",
+	"keywords": [
+		"OpenCV",
+		"C/C++",
+		"Python",
+		"Android NDK"
+	]
+	}],
+	"languages": [{
+		"language": "Portuguese",
+		"fluency": "Native speaker"
+	},{
+	"language": "English",
+	"fluency": "Advanced"
+	}],
+	"interests": [
+		{"name": "Game Development"},
+		{"name": "Game Design"},
+		{"name": "Computer Graphics"},
+		{"name": "Art"},
+		{"name": "Computer Vision"},
+		{"name": "Machine Learning"},
+		{"name": "Digital Image Processing"},
+		{"name": "Augmented Reality"},
+		{"name": "Robotics"},
+		{"name": "Computational Geometry"},
+		{"name": "Web Development"},
+		{"name": "Education"},
+		{"name": "Gamification"}
+	]
+}
