@@ -68,7 +68,22 @@
 	"website": "http://hangar.network/",
 	"startDate": "2015",
 	"endDate": "Present",
+<<<<<<< HEAD
 	"summary": "Tech coworking in Rio de Janeiro",
+=======
+	"summary": "Coworking place to study and technology development.",
+	"highlights":[
+		"Cofounder",
+		"4 startups born in this place"
+	]
+	},{
+	"company": "PaperX",
+	"position": "CTO",
+	"website": "http://paperx.com.br/",
+	"startDate": "2016",
+	"endDate": "Present",
+	"summary": "Educational technology company that provides questions systems to exercice and improve knowledge",
+>>>>>>> 56f2d32731ca7bf4210ab3aa4d8935240272deab
 	"highlights":[
 		"Cofounder",
 		"Currently there are 4 companies born in the place of which 3 were born in the first year of operation"
