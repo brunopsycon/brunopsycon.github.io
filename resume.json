@@ -63,14 +63,26 @@
 		"Full Stack developer in an multi-platform scheduling system using Meteor"
 	]
 	},{
-	"company": "Espaço de Estudos Botafogo",
+	"company": "Hangar",
 	"position": "Developer",
-	"website": "http://costudying.org/",
+	"website": "http://hangar.network/",
 	"startDate": "2015",
 	"endDate": "Present",
-	"summary": "Development of technological solutions for education",
+	"summary": "Tech coworking in Rio de Janeiro",
 	"highlights":[
-		"Cofounder"
+		"Cofounder",
+		"Currently there are 4 companies born in the place of which 3 were born in the first year of operation"
+	]
+	},{
+	"company": "PaperX",
+	"position": "CTO & Cofounder",
+	"website": "http://paperx.com.br/",
+	"startDate": "2016",
+	"endDate": "Present",
+	"summary": "Edutech startup focused in question intelliget system",
+	"highlights":[
+		"Cofounder",
+		"Global Student Entrepeneur Awards finalist and winner in Rio de Janeiro"
 	]
 	}],
 	"volunteer": [{
@@ -155,10 +167,12 @@
 		{"name": "Machine Learning"},
 		{"name": "Digital Image Processing"},
 		{"name": "Augmented Reality"},
-		{"name": "Robotics"},
 		{"name": "Computational Geometry"},
+		{"name": "Robotics"},
 		{"name": "Web Development"},
 		{"name": "Education"},
+		{"name": "Item Response Theory"},
+		{"name": "Adaptive Learning"},
 		{"name": "Gamification"}
 	]
 }
